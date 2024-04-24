@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="index.css" />
+      <title>Recipe Finder</title>
+   </head>
+   <body>
+      <div class="container">
+         <header>
+            <nav id="nav">
+               <h1 class="logo">
+                  <a href="">RPF</a>
+               </h1>
+
+               <div class="nav_links">
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="">Recipes</a></li>
+                     <li><a href="">About Us</a></li>
+                     <li><a href="">Contact Us</a></li>
+                  </ul>
+               </div>
+
+               <a href="" id="nav_a">Sign in</a>
+            </nav>
+         </header>
+
+         <main>
+            <section class="txt_con">
+               <div class="text">
+                  <h1 class="text_h">Find</h1>
+                  <h2 class="text_h">recipes with ingredients!</h2>
+               </div>
+            </section>
+
+            <section class="search_section">
+               <article class="drop_down">
+                  <div class="search_ingr">
+                     <div id="search_btn">Search Ingredients</div>
+                  </div>
+                  <div class="content">
+                     <div class="search">
+                        <input type="text" id="search" />
+                     </div>
+                     <ul class="options"></ul>
+                  </div>
+               </article>
+
+               <section class="buttons">
+                  <div class="btns" id="add">+Add</div>
+                  <div class="btns" id="srch">Search</div>
+               </section>
+            </section>
+
+            <section class="ingredients"></section>
+         </main>
+      </div>
+      <script src="./index.js"></script>
+   </body>
+</html>
